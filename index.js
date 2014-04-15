@@ -5,8 +5,8 @@
 
 var encode = encodeURIComponent;
 var decode = decodeURIComponent;
-var trim = require('trim');
-var type = require('type');
+var trim = require('component-trim');
+var type = require('component-type');
 
 /**
  * Parse the given query `str`.
